@@ -1,0 +1,8 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Linear System Identification}{8}{0}{1}
+\beamer@sectionintoc {2}{Nonlinear System Identification}{44}{0}{2}
+\beamer@sectionintoc {3}{\lowercase {SINDy for ODE}}{51}{0}{3}
+\beamer@sectionintoc {4}{\lowercase {Finding PDEs}}{60}{0}{4}
+\beamer@sectionintoc {5}{\lowercase {SINDy for SDE}}{64}{0}{5}
+\beamer@sectionintoc {6}{\lowercase {Reinf. Learning}}{68}{0}{6}
+\beamer@sectionintoc {7}{\lowercase {Conclusion}}{70}{0}{7}
