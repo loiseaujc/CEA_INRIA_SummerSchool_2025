@@ -212,25 +212,6 @@
     \vfill
 \end{frame}
 
-\begin{frame}[t, c]{Non-exhaustive list of challenges}
-    \vfill
-    \begin{minipage}{.68\textwidth}
-        \centering
-        \begin{tabular}{rl}
-            \textbf{Modelling}  &   What kind of model?                 \\
-                                &   Physics-based or data-driven?       \\
-                                &   How accurate does it need to be?    \\
-                                &   Can I quantify the uncertainties?   \\
-                                &   How expensive is it simulate?
-        \end{tabular}
-    \end{minipage}%
-    \hfill
-    \begin{minipage}{.28\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{rubik_cube.png}
-    \end{minipage}
-    \vfill
-\end{frame}
 
 \begin{frame}[t, c]{Non-exhaustive list of challenges}
     \vfill
@@ -282,6 +263,26 @@
                                 &   Do I have hard operating constraints?   \\
                                 &   On-board or external computations?      \\
                                 &   Do I need any form of certification?
+        \end{tabular}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{.28\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{rubik_cube.png}
+    \end{minipage}
+    \vfill
+\end{frame}
+
+\begin{frame}[t, c]{Non-exhaustive list of challenges}
+    \vfill
+    \begin{minipage}{.68\textwidth}
+        \centering
+        \begin{tabular}{rl}
+            \textbf{Modelling}  &   What kind of model?                 \\
+                                &   Physics-based or data-driven?       \\
+                                &   How accurate does it need to be?    \\
+                                &   Can I quantify the uncertainties?   \\
+                                &   How expensive is it simulate?
         \end{tabular}
     \end{minipage}%
     \hfill
@@ -647,6 +648,32 @@
 
 \begin{frame}
     \vfill
+    \begin{minipage}{.68\textwidth}
+        \[
+            \vb{A}
+            =
+            \begin{bmatrix}
+                0.95 & -0.28 & -0.01 & 0.03 \\
+                0.28 & 0.95 & -0.03 & 0.005 \\
+                -0.007 & 0.017 & 0.84 & 0.52 \\
+                -0.01 & 0.002 & -0.49 & 0.84
+            \end{bmatrix}
+        \]
+        \bigskip
+        \[
+            \vb{B} = \colvec{0.054, -0.03, 0.05, 0.03}, \quad \vb{C} = \rowvec{0.1, 0.07, 0.2, -0.12}
+        \]
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{.28\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{identified_eigenspectrum.png}
+    \end{minipage}
+    \vfill
+\end{frame}
+
+\begin{frame}
+    \vfill
     \centering
     \includegraphics[width=.8\textwidth]{identified_rfr.png}
     \vfill
@@ -896,6 +923,17 @@
     %
     \[
         {\color{red} y} = \vb{Y}_f \vb{g}.
+    \]
+    \vfill
+\end{frame}
+
+\begin{frame}
+    \vfill
+    \centering
+    \includegraphics[width=.8\textwidth]{space_time_diagram_input.png}
+    \par
+    \[
+        \dfrac{\partial u}{\partial t} = \left( -\nu \dfrac{\partial}{\partial x} + \gamma \dfrac{\partial^2}{\partial x^2} + \mu(x) \right) u + f
     \]
     \vfill
 \end{frame}
